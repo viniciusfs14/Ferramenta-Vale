@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>radix_logo.jpg</file>
+    <file>vale_logo.png</file>
+  </qresource>
+</RCC>
