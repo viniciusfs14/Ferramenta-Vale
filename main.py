@@ -1,15 +1,17 @@
 import sys
-from PySide6 import QtWidgets
-from ui.ui_main_window import Ui_inicial_Tela  
+from PySide6.QtWidgets import QApplication, QMainWindow
+from ui.ui_tela import Ui_Tela 
+from PySide6.QtWidgets import QWidget
 from ui.resources_rc import *                  
 
-class MainWindow(QtWidgets.QMainWindow, Ui_inicial_Tela):
+class MainWindow(QWidget, Ui_Tela):
     def __init__(self):
-        super(MainWindow, self).__init__()
+        super().__init__()
         self.setupUi(self)  
-        self.setWindowTitle("Projeto Radix")
 
-app = QtWidgets.QApplication(sys.argv)
-window = MainWindow()
-window.show()
-sys.exit(app.exec())  
+        
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())
