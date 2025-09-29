@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'telakmvRRv.ui'
+## Form generated from reading UI file 'telalFjCuk.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.0
 ##
@@ -16,7 +16,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QGridLayout, QHBoxLayout,
-    QLabel, QSizePolicy, QWidget)
+    QLabel, QPushButton, QSizePolicy, QWidget)
 
 
 class Ui_Tela(object):
@@ -32,15 +32,53 @@ class Ui_Tela(object):
         self.functions.setObjectName(u"functions")
         self.horizontalLayout = QHBoxLayout(self.functions)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.label_2 = QLabel(self.functions)
+        self.widget_3 = QWidget(self.functions)
+        self.widget_3.setObjectName(u"widget_3")
+        self.gridLayout_4 = QGridLayout(self.widget_3)
+        self.gridLayout_4.setObjectName(u"gridLayout_4")
+        self.pushButton = QPushButton(self.widget_3)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setAutoFillBackground(False)
+        self.pushButton.setStyleSheet(u"")
+        self.pushButton.setAutoDefault(False)
+
+        self.gridLayout_4.addWidget(self.pushButton, 1, 0, 1, 1)
+
+        self.label_2 = QLabel(self.widget_3)
         self.label_2.setObjectName(u"label_2")
+        font = QFont()
+        font.setPointSize(16)
+        self.label_2.setFont(font)
 
-        self.horizontalLayout.addWidget(self.label_2)
+        self.gridLayout_4.addWidget(self.label_2, 2, 0, 1, 1, Qt.AlignmentFlag.AlignHCenter)
 
-        self.label_3 = QLabel(self.functions)
+
+        self.horizontalLayout.addWidget(self.widget_3)
+
+        self.line_2 = QFrame(self.functions)
+        self.line_2.setObjectName(u"line_2")
+        self.line_2.setFrameShape(QFrame.Shape.VLine)
+        self.line_2.setFrameShadow(QFrame.Shadow.Sunken)
+
+        self.horizontalLayout.addWidget(self.line_2)
+
+        self.widget_4 = QWidget(self.functions)
+        self.widget_4.setObjectName(u"widget_4")
+        self.gridLayout_5 = QGridLayout(self.widget_4)
+        self.gridLayout_5.setObjectName(u"gridLayout_5")
+        self.pushButton_2 = QPushButton(self.widget_4)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+
+        self.gridLayout_5.addWidget(self.pushButton_2, 0, 0, 1, 1)
+
+        self.label_3 = QLabel(self.widget_4)
         self.label_3.setObjectName(u"label_3")
+        self.label_3.setFont(font)
 
-        self.horizontalLayout.addWidget(self.label_3)
+        self.gridLayout_5.addWidget(self.label_3, 1, 0, 1, 1, Qt.AlignmentFlag.AlignHCenter)
+
+
+        self.horizontalLayout.addWidget(self.widget_4)
 
 
         self.gridLayout.addWidget(self.functions, 1, 0, 1, 1)
@@ -79,9 +117,9 @@ class Ui_Tela(object):
         self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.label = QLabel(self.titulo)
         self.label.setObjectName(u"label")
-        font = QFont()
-        font.setPointSize(26)
-        self.label.setFont(font)
+        font1 = QFont()
+        font1.setPointSize(26)
+        self.label.setFont(font1)
 
         self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1, Qt.AlignmentFlag.AlignHCenter)
 
@@ -106,8 +144,10 @@ class Ui_Tela(object):
 
     def retranslateUi(self, Tela):
         Tela.setWindowTitle(QCoreApplication.translate("Tela", u"Form", None))
-        self.label_2.setText(QCoreApplication.translate("Tela", u"TextLabel", None))
-        self.label_3.setText(QCoreApplication.translate("Tela", u"TextLabel", None))
+        self.pushButton.setText("")
+        self.label_2.setText(QCoreApplication.translate("Tela", u"Fila Catalogadas", None))
+        self.pushButton_2.setText("")
+        self.label_3.setText(QCoreApplication.translate("Tela", u"Planilha de Controle", None))
         self.label_4.setText("")
         self.label_5.setText("")
         self.label.setText(QCoreApplication.translate("Tela", u"Time Catalogadas/Melhorias", None))
