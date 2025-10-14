@@ -1,6 +1,6 @@
-# 🧭 PIMS Unified Interface – Radix/Vale
+# PIMS Unified Interface – Radix/Vale
 
-![PIMS Logo](ui\pimslogo.png)
+![PIMS Logo](ui/pimslogo.png)
 
 > **Central de Apoio PIMS** – uma interface gráfica desenvolvida para integrar e otimizar o trabalho do time de **PIMS (Plant Information Management System)** da **Radix/Vale**.
 
