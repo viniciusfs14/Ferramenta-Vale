@@ -1,5 +1,8 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>newtags.png</file>
+    <file>telasulsudestelogo.png</file>
+    <file>telavitorialogo.png</file>
     <file>fila_logo.png</file>
     <file>acessos_logo.png</file>
     <file>chamados_logo.png</file>
