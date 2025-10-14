@@ -33,6 +33,7 @@ class MainWindow(QWidget, Ui_Tela):
         self.site_button.clicked.connect(self.open_site)
         self.pushButton_2.clicked.connect(self.open_planilha)
         self.pushButton.clicked.connect(self.open_fila)
+        self.pushButton_3.clicked.connect(self.open_acessos)
 
 
     def open_fila(self):
@@ -40,12 +41,16 @@ class MainWindow(QWidget, Ui_Tela):
         webbrowser.open(url)
         
     def open_planilha(self):
-        controle = r"Controle Suporte VALE - Catalogadas - Oficial.xlsm"
+        controle = r"Controle Suporte VALE - Catalogadas - Oficial (testes).xlsm"
         subprocess.Popen(["start", "excel", controle], shell=True)
 
     def open_site(self):
-        url = "https://youtube.com.br"
+        url = "https://globalvale.sharepoint.com/teams/PIMS"
         webbrowser.open(url)
+
+    def open_acessos(self):
+        acesso = "https://radixengazure.sharepoint.com/:w:/r/sites/VALE-FMDS-PIMSCatalogadasMelhorias/Documentos%20Compartilhados/PIMS/01%20-%20Documentos%20de%20Apoio/VALE%20%E2%80%93%20REdiscover%20PIMS%20-%20Acessos.docx?d=wbc5e1361b13047189129c8dece18f2d9&csf=1&web=1&e=JjMAbX"
+        subprocess.Popen(["start", "winword", acesso], shell=True)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
