@@ -6,7 +6,7 @@
 > **Central de Apoio PIMS** – uma interface gráfica desenvolvida para integrar e otimizar o trabalho do time de **PIMS** da **Radix/Vale**.
 
 <img src="ui/print_app.png" alt="print" width="800">
----
+
 
 ## 🎯 Objetivo do Projeto
 
@@ -44,6 +44,7 @@ A tela principal foi projetada com base nos princípios de **usabilidade corpora
 ## 👨‍💻 Autor
 
 Desenvolvido por Vinícius Fernandes
+
 Analista de Dados - Radix Engenharia e Software
 
 📧 vinicius.silvestre@radixeng.com
