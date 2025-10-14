@@ -16,9 +16,12 @@ class MainWindow(QWidget, Ui_Tela):
         self.setWindowTitle("PIMS - Radix/Vale")
         self.pushButton.setIcon(QIcon(":/newPrefix/vale_logo.png"))
         self.pushButton_2.setIcon(QIcon(":/newPrefix/radix_logo.jpg"))
+        self.pushButton_3.setIcon(QIcon(":/newPrefix/pimslogo.png"))
+        self.pushButton_3.setIconSize(QSize(150,150))
         self.pushButton_2.setIconSize(QSize(150,150))
         self.pushButton.setIconSize(QSize(150,150))
         self.pushButton_2.clicked.connect(self.open_planilha)
+        self.showMaximized()
 
     def open_pydaq_website(self):
         url = "https://vale.service-now.com/now/nav/ui/classic/params/target/%24vtb.do%3Fsysparm_board%3D8c50d5d4fbf342505019f3636eefdc7a"
@@ -30,6 +33,7 @@ class MainWindow(QWidget, Ui_Tela):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon("ui\\logoapp.png"))
     window = MainWindow()
     window.show()
     sys.exit(app.exec())

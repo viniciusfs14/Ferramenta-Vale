@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>pims2logo.png</file>
+    <file>pimslogo.png</file>
     <file>radix_logo.jpg</file>
     <file>vale_logo.png</file>
   </qresource>

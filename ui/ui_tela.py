@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'telalFjCuk.ui'
+## Form generated from reading UI file 'telaAmOeeF.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.0
 ##
@@ -23,7 +23,7 @@ class Ui_Tela(object):
     def setupUi(self, Tela):
         if not Tela.objectName():
             Tela.setObjectName(u"Tela")
-        Tela.resize(696, 510)
+        Tela.resize(800, 510)
         Tela.setStyleSheet(u"background-color: white;\n"
 "color: black;")
         self.gridLayout = QGridLayout(Tela)
@@ -80,12 +80,39 @@ class Ui_Tela(object):
 
         self.horizontalLayout.addWidget(self.widget_4)
 
+        self.line_3 = QFrame(self.functions)
+        self.line_3.setObjectName(u"line_3")
+        self.line_3.setFrameShape(QFrame.Shape.VLine)
+        self.line_3.setFrameShadow(QFrame.Shadow.Sunken)
+
+        self.horizontalLayout.addWidget(self.line_3)
+
+        self.widget_5 = QWidget(self.functions)
+        self.widget_5.setObjectName(u"widget_5")
+        self.gridLayout_6 = QGridLayout(self.widget_5)
+        self.gridLayout_6.setObjectName(u"gridLayout_6")
+        self.label_6 = QLabel(self.widget_5)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setFont(font)
+
+        self.gridLayout_6.addWidget(self.label_6, 1, 0, 1, 1, Qt.AlignmentFlag.AlignHCenter)
+
+        self.pushButton_3 = QPushButton(self.widget_5)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+
+        self.gridLayout_6.addWidget(self.pushButton_3, 0, 0, 1, 1)
+
+
+        self.horizontalLayout.addWidget(self.widget_5)
+
 
         self.gridLayout.addWidget(self.functions, 1, 0, 1, 1)
 
         self.widget_2 = QWidget(Tela)
         self.widget_2.setObjectName(u"widget_2")
         self.widget_2.setMaximumSize(QSize(16777215, 50))
+        self.widget_2.setStyleSheet(u"background-color: #00565F;\n"
+"color: white;")
         self.horizontalLayout_2 = QHBoxLayout(self.widget_2)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
         self.label_4 = QLabel(self.widget_2)
@@ -117,14 +144,30 @@ class Ui_Tela(object):
         self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.label = QLabel(self.titulo)
         self.label.setObjectName(u"label")
+        self.label.setMaximumSize(QSize(200, 80))
         font1 = QFont()
         font1.setPointSize(26)
         self.label.setFont(font1)
+        self.label.setPixmap(QPixmap(u":/newPrefix/pimslogo.png"))
+        self.label.setScaledContents(True)
 
         self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1, Qt.AlignmentFlag.AlignHCenter)
 
+        self.label_7 = QLabel(self.titulo)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setFont(font)
+
+        self.gridLayout_2.addWidget(self.label_7, 1, 0, 1, 1, Qt.AlignmentFlag.AlignHCenter)
+
 
         self.gridLayout_3.addWidget(self.titulo, 0, 0, 1, 1)
+
+        self.line_4 = QFrame(self.widget)
+        self.line_4.setObjectName(u"line_4")
+        self.line_4.setFrameShape(QFrame.Shape.HLine)
+        self.line_4.setFrameShadow(QFrame.Shadow.Sunken)
+
+        self.gridLayout_3.addWidget(self.line_4, 1, 0, 1, 1)
 
 
         self.gridLayout.addWidget(self.widget, 0, 0, 1, 1)
@@ -148,8 +191,11 @@ class Ui_Tela(object):
         self.label_2.setText(QCoreApplication.translate("Tela", u"Fila Catalogadas", None))
         self.pushButton_2.setText("")
         self.label_3.setText(QCoreApplication.translate("Tela", u"Planilha de Controle", None))
+        self.label_6.setText(QCoreApplication.translate("Tela", u"Acessos", None))
+        self.pushButton_3.setText("")
         self.label_4.setText("")
         self.label_5.setText("")
-        self.label.setText(QCoreApplication.translate("Tela", u"Time Catalogadas/Melhorias", None))
+        self.label.setText("")
+        self.label_7.setText(QCoreApplication.translate("Tela", u"Central de Apoio - PIMS", None))
     # retranslateUi
 
