@@ -1,5 +1,12 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>fila_logo.png</file>
+    <file>acessos_logo.png</file>
+    <file>chamados_logo.png</file>
+    <file>controle_logo.png</file>
+    <file>valenew.png</file>
+    <file>valelogosem.png</file>
+    <file>radixlogonew.png</file>
     <file>pims2logo.png</file>
     <file>pimslogo.png</file>
     <file>radix_logo.jpg</file>
