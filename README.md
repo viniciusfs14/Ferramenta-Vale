@@ -3,8 +3,9 @@
 <img src="ui/pimslogo.png" alt="Interface do sistema" width="200">
 
 
-> **Central de Apoio PIMS** – uma interface gráfica desenvolvida para integrar e otimizar o trabalho do time de **PIMS (Plant Information Management System)** da **Radix/Vale**.
+> **Central de Apoio PIMS** – uma interface gráfica desenvolvida para integrar e otimizar o trabalho do time de **PIMS** da **Radix/Vale**.
 
+<img src="ui/print_app.png" alt="Interface do sistema" width="400">
 ---
 
 ## 🎯 Objetivo do Projeto
@@ -26,10 +27,8 @@ A tela principal foi projetada com base nos princípios de **usabilidade corpora
 |-------|------------|
 | 👥 **Fila Catalogadas** | Acesso rápido às filas monitoradas pelo time de PIMS. |
 | 📋 **Planilha de Controle** | Visualização e atualização centralizada dos registros internos. |
-| 🗂️ **Acessos** | Central de links, diretórios e ferramentas utilizadas no dia a dia. |
-| 📝 **Chamados** | Facilita o acompanhamento e gerenciamento de tickets e demandas. |
-
-Na parte inferior, são exibidos os logotipos **Radix** e **Vale**, reforçando a identidade institucional do projeto.
+| 🗂️ **Acessos** | Acesso a documentação de solicitação de acessos para trabalhar no time |
+| 📝 **Chamados** | Acesso fácil a modelos de planilha para atendimento de solicitações  |
 
 ---
 
@@ -37,13 +36,17 @@ Na parte inferior, são exibidos os logotipos **Radix** e **Vale**, reforçando 
 
 - 🐍 **Python 3.11+**  
 - 🖼️ **PySide6 (Qt for Python)** – criação da interface gráfica  
-- 🎨 **QSS (Qt Stylesheet)** – personalização visual (base #008075 com transparência)  
-- 🧩 **Qt Designer** – prototipagem e design de telas  
-- 🧭 **pyside6-rcc** – compilação de recursos `.qrc`
+- 🎨 **QSS (Qt Stylesheet)** – personalização visual 
+- 🧩 **Qt Designer** – prototipagem e design de telas 
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## 👨‍💻 Autor
 
+Desenvolvido por Vinícius Fernandes
+Analista de Dados - Radix Engenharia e Software
 
+📧 vinicius.silvestre@radixeng.com
+
+---
 
